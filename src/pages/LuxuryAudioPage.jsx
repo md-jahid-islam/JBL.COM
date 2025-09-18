@@ -11,7 +11,7 @@ function LuxuryAudioPage() {
       <Breadcrumb />
       <div className='flex gap-2.5'>
         <FilterSidebar />
-        <div className='flex flex-wrap gap-2.5'>
+        <div className='flex flex-wrap gap-2.5'>          
           <ProductCard />
           <ProductCard />
           <ProductCard />

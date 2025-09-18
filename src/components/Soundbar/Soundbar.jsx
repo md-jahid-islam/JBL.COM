@@ -6,34 +6,38 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
- // =========== AOS animation initialization ======= //
- function HeadphonesBanner() {
+ // ======= Speakers Banner ========= //
+ function Soundbar
+() {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); 
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
-  // ============ Banner images ============ // 
+  // ========= Speakers banner images ========= // 
   const banners = [
-    { id: 1, img: "image/Headphones-banner.png" },
-    { id: 2, img: "image/Headphones-banner2.png" },
-    { id: 3, img: "image/Headphones-banner3.png" },
+    { id: 1, img: "image/Speakers-cat-DES.jpg" },
+    { id: 2, img: "image/Speakers-cat-DES2.jpg" },
+    { id: 3, img: "image/Speakers-cat-DES3.jpg" },
   ];
 
-  // =========== Custom Arrow Components =========== //
+  // ========== Custom navigation arrows ========= // 
   const NextArrow = ({ onClick }) => (
-    <div className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full cursor-pointer z-10 transition" onClick={onClick} >
+    <div className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full cursor-pointer z-10 transition"
+      onClick={onClick} 
+      >
       <FaChevronRight className="text-lg sm:text-xl" />
     </div>
   );
-  
- // ======= Prev Arrow ========== // 
+
   const PrevArrow = ({ onClick }) => (
-    <div className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full cursor-pointer z-10 transition" onClick={onClick} >
+    <div className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full cursor-pointer z-10 transition"
+      onClick={onClick}
+    >
       <FaChevronLeft className="text-lg sm:text-xl" />
     </div>
   );
 
-  // ======== Slider settings with arrows =========== // 
+  // ========= React Slick settings ========= // 
   const settings = {
     dots: true,
     infinite: true,
@@ -55,18 +59,20 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
               style={{ backgroundImage: `url(${banner.img})` }}
               data-aos="fade-up"
             >
-              {/* Content */}
+              {/* Banner Content */}
               <div className="text-center px-4">
                 <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg"
                   data-aos="zoom-in"
-                  data-aos-delay="300" >
-                  Premium Headphones Collection
+                  data-aos-delay="300"
+                >
+                  Powerful Speakers Collection
                 </h2>
                 <p className="text-gray-200 mt-4 text-sm sm:text-base md:text-lg max-w-md mx-auto"
                   data-aos="fade-up"
-                  data-aos-delay="500">
-                  Experience crystal-clear sound and deep bass with our latest
-                  headphones.
+                  data-aos-delay="500"
+                >
+                  Fill your room with rich, immersive sound from our latest
+                  speaker range.
                 </p>
                 <button className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-2xl hover:bg-orange-600 transition"
                   data-aos="fade-up"
@@ -83,4 +89,4 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
   );
  }
 
- export default HeadphonesBanner;
+ export default Soundbar;
