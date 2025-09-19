@@ -12,6 +12,8 @@ import SoundOfCelebrationsPage from './pages/SoundOfCelebrationsPage'
 import ClearanceSalePage from './pages/ClearanceSalePage'
 import HomePage from './pages/HomePage'
 import ProductDetails from './components/ProductDetails/ProductDetails'
+import Login from './components/Login/Login'
+import Registrations from './components/Registrations/Registrations'
  
  // ========= App ========= // 
  function App() {
@@ -19,6 +21,8 @@ import ProductDetails from './components/ProductDetails/ProductDetails'
     <>
       <BrowserRouter>
         <Routes>
+          <Route path='/login' element = {<Login/>}/>
+          <Route path='/Registrations' element = {<Registrations/>}/>
           <Route path='/' element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path='headphonePage' element={<HeadphonePage />} />
@@ -31,7 +35,9 @@ import ProductDetails from './components/ProductDetails/ProductDetails'
             <Route path='soundOfCelebrations' element={<SoundOfCelebrationsPage />} />
             <Route path='clearanceSale' element={<ClearanceSalePage />} />
             <Route path='productDetails' element={ProductDetails} />
+            
           </Route>
+
         </Routes>
       </BrowserRouter>
     </>

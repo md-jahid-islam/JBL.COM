@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
  // ============ Footer =========== // 
  const Footer = () => {
   return (
+    <>
     <footer className="bg-black text-gray-400 px-4 sm:px-6 md:px-10 py-8 text-sm">
       <div className="max-w-7xl mx-auto">
         {/* Top Section */}
@@ -122,7 +123,8 @@ import { MdEmail } from "react-icons/md";
           </div>
         </div>
       </div>
-    </footer>
+    </footer>  
+    </>
   );
  };
 

@@ -34,13 +34,27 @@ import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
             </ul>
           </div>
         
-        {/* CiSearch FaUser CiShoppingCart start */}
+        {/* CiSearch FaUser CiShoppingCart all icon start */}
         <div className="flex justify-center md:justify-end gap-6 mt-6 md:mt-0 px-4">
-        <CiSearch className="text-2xl cursor-pointer hover:text-blue-500 transition-transform transform hover:scale-110"/>
-        <FaUser className="text-2xl cursor-pointer hover:text-blue-500 transition-transform transform hover:scale-110" />
-        <CiShoppingCart className="text-2xl cursor-pointer hover:text-blue-500 transition-transform transform hover:scale-110" />
+         <ul className=" flex items-center gap-2.5">
+          <li>
+            <Link to="">
+            <CiSearch className="text-2xl cursor-pointer hover:text-blue-500 transition-transform transform hover:scale-110"/>
+            
+            </Link>
+          </li>
+           <Link to="/Login">
+            <FaUser className="text-2xl cursor-pointer hover:text-blue-500 transition-transform transform hover:scale-110"/>
+            
+            </Link>
+          <li>
+            <Link to="">
+            <CiShoppingCart className="text-2xl cursor-pointer hover:text-blue-500 transition-transform transform hover:scale-110"/>
+            </Link>
+          </li>
+         </ul>
       </div>
-        {/* CiSearch FaUser CiShoppingCart end*/}
+        {/* CiSearch FaUser CiShoppingCart all icon end*/}
 
           {/* Mobile Menu Button */}
           <button className="lg:hidden text-3xl text-black" onClick={toggleMenu}>

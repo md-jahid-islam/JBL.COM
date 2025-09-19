@@ -50,6 +50,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
   };
 
   return (
+    <>
     <section className="relative w-full">
       <Slider {...settings}>
         {banners.map((banner) => (
@@ -84,7 +85,8 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
           </div>
         ))}
       </Slider>
-    </section>
+    </section> 
+    </>
   );
  }
 

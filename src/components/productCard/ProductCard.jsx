@@ -4,6 +4,7 @@ import { Link } from "react-router";
  // =========== Product Card =========== // 
  const ProductCard = () => {
   return (
+    <>
     <section className="mt-5 px-2 sm:px-4">
       <div className="border p-4 w-full max-w-xs mx-auto sm:mx-0 shadow hover:shadow-lg transition duration-300 rounded-lg">
 
@@ -68,7 +69,8 @@ import { Link } from "react-router";
           </button>
         </div>
       </div>
-    </section>
+    </section> 
+    </>
   );
  };
 

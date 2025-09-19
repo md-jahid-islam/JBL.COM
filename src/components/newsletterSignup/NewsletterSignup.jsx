@@ -34,6 +34,7 @@ import { FaArrowRight } from "react-icons/fa";
   };
 
   return (
+    <>
     <div className="bg-[#ff3c00] px-4 sm:px-6 lg:px-12 py-8 sm:py-12 text-white">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 lg:gap-10">
         
@@ -68,7 +69,8 @@ import { FaArrowRight } from "react-icons/fa";
           </form>
         </div>
       </div>
-    </div>
+    </div> 
+    </>
   );
  };
 
