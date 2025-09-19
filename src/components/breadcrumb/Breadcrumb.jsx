@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
 import { FaChevronRight } from "react-icons/fa";
-
+ 
+ // ============ Breadcrumb title =========== // 
  function Breadcrumb({ title }) {
   const location = useLocation();
   const path1 = location.pathname.split("/")[1];

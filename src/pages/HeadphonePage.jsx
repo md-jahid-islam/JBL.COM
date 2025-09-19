@@ -5,7 +5,8 @@ import FilterSidebar from '../components/filterSidebar/FilterSidebar'
 import ProductCard from '../components/productCard/ProductCard'
 import ProductDetails from '../components/ProductDetails/ProductDetails'
 
-function HeadphonePage() {
+ // ======== HeadphonePage ========= // 
+ function HeadphonePage() {
   return (
     <>
       <HeadphonesBanner />
@@ -24,6 +25,6 @@ function HeadphonePage() {
       {/* <ProductDetails/> */}
     </>
   )
-}
+ }
 
-export default HeadphonePage
+ export default HeadphonePage

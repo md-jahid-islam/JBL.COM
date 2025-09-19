@@ -54,7 +54,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
             <div className="h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] bg-center bg-cover flex items-center justify-center relative"
               style={{ backgroundImage: `url(${banner.img})` }}
               data-aos="fade-up"
-            >
+              >
               {/* Content */}
               <div className="text-center px-4">
                 <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg"

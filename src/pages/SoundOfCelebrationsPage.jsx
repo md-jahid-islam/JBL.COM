@@ -3,7 +3,8 @@ import Breadcrumb from '../components/breadcrumb/Breadcrumb'
 import FilterSidebar from '../components/filterSidebar/FilterSidebar'
 import ProductCard from '../components/productCard/ProductCard'
 
-function SoundOfCelebrationsPage() {
+ // ======== Sound Of Celebrations Page ============ // 
+ function SoundOfCelebrationsPage() {
   return (
     <>
       <Breadcrumb />
@@ -20,6 +21,6 @@ function SoundOfCelebrationsPage() {
       </div>
     </>
   )
-}
+ }
 
-export default SoundOfCelebrationsPage
+ export default SoundOfCelebrationsPage

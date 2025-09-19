@@ -2,8 +2,9 @@ import React from 'react'
 import Breadcrumb from '../components/breadcrumb/Breadcrumb'
 import FilterSidebar from '../components/filterSidebar/FilterSidebar'
 import ProductCard from '../components/productCard/ProductCard'
-
-function AccessoriesPage() {
+ 
+ // ========== Accessories Page ========== // 
+ function AccessoriesPage() {
   return (
     <>
       <Breadcrumb />
@@ -20,6 +21,6 @@ function AccessoriesPage() {
       </div>
     </>
   )
-}
+ }
 
-export default AccessoriesPage
+ export default AccessoriesPage

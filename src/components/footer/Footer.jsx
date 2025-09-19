@@ -1,6 +1,7 @@
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-
+ 
+ // ============ Footer =========== // 
  const Footer = () => {
   return (
     <footer className="bg-black text-gray-400 px-4 sm:px-6 md:px-10 py-8 text-sm">

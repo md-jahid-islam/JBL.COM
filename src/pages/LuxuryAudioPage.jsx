@@ -3,8 +3,9 @@ import Breadcrumb from '../components/breadcrumb/Breadcrumb'
 import FilterSidebar from '../components/filterSidebar/FilterSidebar'
 import ProductCard from '../components/productCard/ProductCard'
 import LuxuryAudioBanner from '../components/luxuryAudio/LuxuryAudioBanner'
-
-function LuxuryAudioPage() {
+ 
+ // ========= Luxury Audio Page ========= // 
+ function LuxuryAudioPage() {
   return (
     <>
       <LuxuryAudioBanner />
@@ -22,6 +23,6 @@ function LuxuryAudioPage() {
       </div>
     </>
   )
-}
+ }
 
-export default LuxuryAudioPage
+ export default LuxuryAudioPage

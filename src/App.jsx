@@ -12,8 +12,9 @@ import SoundOfCelebrationsPage from './pages/SoundOfCelebrationsPage'
 import ClearanceSalePage from './pages/ClearanceSalePage'
 import HomePage from './pages/HomePage'
 import ProductDetails from './components/ProductDetails/ProductDetails'
-
-function App() {
+ 
+ // ========= App ========= // 
+ function App() {
   return (
     <>
       <BrowserRouter>
@@ -35,6 +36,6 @@ function App() {
       </BrowserRouter>
     </>
   )
-}
+ }
 
-export default App
+ export default App

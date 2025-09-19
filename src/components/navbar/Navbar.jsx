@@ -3,7 +3,8 @@ import { CiSearch, CiShoppingCart } from "react-icons/ci";
 import { FaUser } from "react-icons/fa";
 import { Link } from "react-router";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
-
+ 
+ // =========== Navbar ========== // 
  function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);

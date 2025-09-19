@@ -4,7 +4,8 @@ import FilterSidebar from '../components/filterSidebar/FilterSidebar'
 import ProductCard from '../components/productCard/ProductCard'
 import SpeakersBanner from '../components/speakers/SpeakersBanner'
 
-function SpeakersPage() {
+ // ========== Speakers Page =========== // 
+ function SpeakersPage() {
   return (
     <>
       <SpeakersBanner />
@@ -22,6 +23,6 @@ function SpeakersPage() {
       </div>
     </>
   )
-}
+ }
 
-export default SpeakersPage
+ export default SpeakersPage

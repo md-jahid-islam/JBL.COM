@@ -3,7 +3,8 @@ import Breadcrumb from '../components/breadcrumb/Breadcrumb'
 import FilterSidebar from '../components/filterSidebar/FilterSidebar'
 import ProductCard from '../components/productCard/ProductCard'
 
-function ProfessionalAudioPage() {
+ // ========== Professional Audio Page ========= // 
+ function ProfessionalAudioPage() {
   return (
     <>
       <Breadcrumb />
@@ -20,6 +21,6 @@ function ProfessionalAudioPage() {
       </div>
     </>
   )
-}
+ }
 
-export default ProfessionalAudioPage
+ export default ProfessionalAudioPage
