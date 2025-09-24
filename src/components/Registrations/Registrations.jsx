@@ -175,7 +175,7 @@ const Registrations = () => {
         {/* Back to Login Button */}
         <p className="text-center mt-4 text-gray-600">
           Already have an account?{" "}
-          <Link to="/Registrations" className="text-green-500 font-medium hover:underline">
+          <Link to="/Login" className="text-green-500 font-medium hover:underline">
             Back to Login
           </Link>
         </p>
