@@ -15,6 +15,8 @@ import ProductDetails from './components/ProductDetails/ProductDetails'
 import Login from './components/Login/Login'
 import Registrations from './components/Registrations/Registrations'
 import CheckOut from './components/CheckOut/CheckOut'
+import UpdateCart from './components/UpdateCart/UpdateCart'
+import ProceedToPayment from './components/ProceedtoPayment/ProceedToPayment'
  
  // ========= App ========= // 
  function App() {
@@ -36,8 +38,9 @@ import CheckOut from './components/CheckOut/CheckOut'
             <Route path='soundOfCelebrations' element={<SoundOfCelebrationsPage />} />
             <Route path='clearanceSale' element={<ClearanceSalePage />} />
             <Route path='productDetails' element={<ProductDetails/>} /> 
-            <Route path='CheckOut' element={<CheckOut/>} />           
-          
+            <Route path='CheckOut' element={<CheckOut/>} />
+            <Route path='UpdateCart' element={<UpdateCart/>} />
+            <Route path='ProceedToPayment' element={<ProceedToPayment/>} />                              
           </Route>
 
         </Routes>

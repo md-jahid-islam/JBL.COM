@@ -69,6 +69,7 @@ import { Link } from "react-router";
   };
 
   return (
+    <>
     <section className="py-10 px-4 sm:px-6 lg:px-10 bg-gray-50">
       <div className="max-w-7xl mx-auto">
 
@@ -153,7 +154,7 @@ import { Link } from "react-router";
               </div>
 
               {/* Add to Cart */}
-              <Link to="/checkout" className="mt-6 inline-flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 text-white px-6 py-3 rounded-xl font-semibold transition" >
+              <Link to="/CheckOut" className="mt-6 inline-flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 text-white px-6 py-3 rounded-xl font-semibold transition" >
                 <FaCartPlus className="mr-2" /> Add {quantity} to Cart
               </Link>
             </div>
@@ -239,6 +240,7 @@ import { Link } from "react-router";
         </div>
       </div>
     </section>
+    </>
   );
  }
 
