@@ -15,8 +15,8 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
    // ========= banners =========== // 
   const banners = [
     { id: 1, img: "image/LUXA-CAT-INDIA-DES.png" },
-    { id: 2, img: "image/LUXA-CAT-INDIA-DES.png" },
-    { id: 3, img: "image/LUXA-CAT-INDIA-DES.png" },
+    { id: 2, img: "image/Headphones-banner.png" },
+    { id: 3, img: "image/Speakers-cat-DES.jpg" },
   ];
 
  // ======= NextArrow =======  // 
