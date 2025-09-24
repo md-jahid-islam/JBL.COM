@@ -14,6 +14,7 @@ import HomePage from './pages/HomePage'
 import ProductDetails from './components/ProductDetails/ProductDetails'
 import Login from './components/Login/Login'
 import Registrations from './components/Registrations/Registrations'
+import CheckOut from './components/CheckOut/CheckOut'
  
  // ========= App ========= // 
  function App() {
@@ -34,8 +35,9 @@ import Registrations from './components/Registrations/Registrations'
             <Route path='accessories' element={<AccessoriesPage />} />
             <Route path='soundOfCelebrations' element={<SoundOfCelebrationsPage />} />
             <Route path='clearanceSale' element={<ClearanceSalePage />} />
-            <Route path='productDetails' element={ProductDetails} />
-            
+            <Route path='productDetails' element={<ProductDetails/>} /> 
+            <Route path='CheckOut' element={<CheckOut/>} />           
+          
           </Route>
 
         </Routes>

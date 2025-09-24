@@ -5,17 +5,13 @@ import { Link } from "react-router";
  const ProductCard = () => {
   return (
     <>
-    <section className="mt-5 px-2 sm:px-4">
+    <section className="mt-5 px-2 sm:px-4 ">
       <div className="border p-4 w-full max-w-xs mx-auto sm:mx-0 shadow hover:shadow-lg transition duration-300 rounded-lg">
 
         {/* Product Image */}
         <div className="flex justify-center mb-4">
           <Link to="/ProductDetails">
-            <img
-              src="/image/01.webp"
-              alt="JBL Tune Beam 2"
-              className="h-36 sm:h-40 md:h-44 lg:h-48 object-contain"
-            />
+            <img src="/image/01.webp" alt="JBL Tune Beam 2" className="h-36 sm:h-40 md:h-44 lg:h-48 object-contain" />
           </Link>
         </div>
 

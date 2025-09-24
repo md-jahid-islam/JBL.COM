@@ -12,11 +12,6 @@ import ProductCard from '../components/productCard/ProductCard'
         <FilterSidebar />
         <div className='flex flex-wrap gap-2.5'>
           <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
         </div>
       </div>
     </>
