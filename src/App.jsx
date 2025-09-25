@@ -17,6 +17,7 @@ import Registrations from './components/Registrations/Registrations'
 import CheckOut from './components/CheckOut/CheckOut'
 import UpdateCart from './components/UpdateCart/UpdateCart'
 import ProceedToPayment from './components/ProceedtoPayment/ProceedToPayment'
+import ViewMore from './components/ViewMore/ViewMore'
  
  // ========= App ========= // 
  function App() {
@@ -40,7 +41,9 @@ import ProceedToPayment from './components/ProceedtoPayment/ProceedToPayment'
             <Route path='productDetails' element={<ProductDetails/>} /> 
             <Route path='CheckOut' element={<CheckOut/>} />
             <Route path='UpdateCart' element={<UpdateCart/>} />
-            <Route path='ProceedToPayment' element={<ProceedToPayment/>} />                              
+            <Route path='ProceedToPayment' element={<ProceedToPayment/>} />
+            <Route path='ViewMore' element={<ViewMore/>} />                              
+                                         
           </Route>
 
         </Routes>

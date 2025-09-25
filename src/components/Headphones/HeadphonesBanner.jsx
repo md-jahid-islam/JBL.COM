@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { Link } from "react-router";
 
  // =========== AOS animation initialization ======= //
  function HeadphonesBanner() {
@@ -54,8 +55,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
           <div key={banner.id}>
             <div className="h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] bg-center bg-cover flex items-center justify-center relative"
               style={{ backgroundImage: `url(${banner.img})` }}
-              data-aos="fade-up"
-              >
+              data-aos="fade-up">
               {/* Content */}
               <div className="text-center px-4">
                 <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg"
@@ -69,12 +69,9 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
                   Experience crystal-clear sound and deep bass with our latest
                   headphones.
                 </p>
-                <button className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-2xl hover:bg-orange-600 transition"
-                  data-aos="fade-up"
-                  data-aos-delay="700"
-                >
+                <Link to="/ViewMore" className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-2xl hover:bg-orange-600 transition" data-aos="fade-up" data-aos-delay="700">
                   Shop Now
-                </button>
+                </Link>
               </div>
             </div>
           </div>
