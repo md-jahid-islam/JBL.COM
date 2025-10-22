@@ -33,9 +33,8 @@ import { FaMinus } from "react-icons/fa";
                         { color: "bg-gray-400", label: "Grey" },
                     ].map((item, i) => (
                         <div key={i} className="flex flex-col items-center text-xs">
-                            <span
-                                className={`w-6 h-6 sm:w-7 sm:h-7 rounded-full ${item.color} border cursor-pointer`}
-                            ></span>
+                            <span className={`w-6 h-6 sm:w-7 sm:h-7 rounded-full ${item.color} border cursor-pointer`}>
+                            </span>
                             <span className="mt-1">{item.label}</span>
                         </div>
                     ))}
